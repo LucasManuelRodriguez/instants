@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Instant extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'title',
+        'img',
+    ];
 }

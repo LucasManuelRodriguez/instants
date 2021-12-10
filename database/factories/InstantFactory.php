@@ -14,7 +14,8 @@ class InstantFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'title' => $this->faker->company(),
+            'img' => $this->faker->image(),
         ];
     }
 }
