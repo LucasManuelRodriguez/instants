@@ -15,7 +15,8 @@ class InstantController extends Controller
      */
     public function index()
     {
-        //
+        $instants = Instant::all();
+        return view('landing',['instants'=>$instants]);
     }
 
     /**
