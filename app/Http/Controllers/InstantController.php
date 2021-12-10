@@ -6,6 +6,7 @@ use App\Models\Instant;
 use App\Http\Requests\StoreInstantRequest;
 use App\Http\Requests\UpdateInstantRequest;
 
+
 class InstantController extends Controller
 {
     /**
